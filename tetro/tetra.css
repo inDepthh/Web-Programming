@@ -1,56 +1,5 @@
-.score {
-  top: 5px;
-  position: relative;
-  font-family: arial;
-  color: white;
-}
 
-#gamespace {
-  width: 400px;
-  height: 620px;
-  background-color: lightblue;
-  margin: auto;
-
-}
-
-#showscore {
-  width: 120px;
-  height: 30px;
-  top: 41px;
-  right: 400px;
-  background-color: gray;
-  position: absolute;
-}
-
-#highscore {
-  width: 120px;
-  height: 30px;
-  top: 10px;
-  right: 400px;
-  background-color: gray;
-  position: absolute;
-}
-
-#start {
-  left: 155px;
-  top: 288.5px;
-  position: absolute;
-  color: green;
-}
-
-
-#new {
-  left: 69.5%;
-  top: 0%;
-  position: absolute;
-}
-
-#quit {
-  left: 90%;
-  top: 0%;
-  position: absolute;
-}
-
+/*Game Space*/
 #container {
   width: 400px;
   height: 620px;
@@ -58,6 +7,65 @@
   margin: auto;
 }
 
+#gamespace {
+  width: 400px;
+  height: 620px;
+  background-color: #a2c5ef;
+  margin: auto;
+  opacity: .90;
+  border-radius: 20px 20px 0 0;
+}
+
+/*Game Scores*/
+#showscore {
+  width: 120px;
+  height: 30px;
+  top: 46px;
+  right: 400px;
+  background: linear-gradient(to bottom right, darkblue, #a2c5ef);
+  position: absolute;
+  border-radius: 0 0 0 10px;
+}
+
+#highscore {
+  width: 120px;
+  height: 30px;
+  top: 16px;
+  right: 400px;
+  background: linear-gradient(to bottom left, #a2c5ef, darkblue);
+  position: absolute;
+  border-radius: 10px 0 0 0;
+}
+
+.score {
+  top: 5px;
+  position: relative;
+  font-family: arial;
+  color: white;
+  left: 5px;
+}
+
+/*Buttons*/
+#start {
+  left: 155px;
+  top: 288.5px;
+  position: absolute;
+  color: green;
+}
+
+#new {
+  left: 65%;
+  top: 0%;
+  position: absolute;
+}
+
+#quit {
+  left: 85%;
+  top: 0%;
+  position: absolute;
+}
+
+/*Game Controls*/
 .controls {
   width: 400px;
   height: 95px;
@@ -65,15 +73,17 @@
   margin: auto;
   border: solid 2.5px black;
   border-radius: 10px;
+  bottom: 0px;
 }
 
-
+/*Game Controls "Keeps controls in place"*/
 #wrapper {
   width: 500;
   height: 500;
   display: flex;
 }
 
+/*Page Background*/
 .body {
   background-image: url(spacemovies.jpg);
   background-position: center;
@@ -81,31 +91,13 @@
   background-size: 100% 200%;
 }
 
-
-
-
-/* .obj1 {
-  width: 30px;
+/*Moving piece*/
+#obj1 {
+  width: 25px;
   height: 80px;
   background-color: green;
-  position:relative;
-  bottom: 21px;
+  position: absolute;
+  bottom: 540px;
+  left: 192px;
+  display: none;
 }
-
-.obj2 {
-  width: 30px;
-  height: 80px;
-  background-color: green;
-  position:relative;
-  bottom: 102px;
-  left: 40px;
-} */
-
-
-/* #buttonwrap {
-  bottom: 741.5px;
-
-  height: 100%;
-  width: 100%;
-  display: flex;
-} */
