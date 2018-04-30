@@ -1,38 +1,30 @@
 <!DOCtype html>
 <html>
-<head>
-  <title>Tetro</title>
-  <link href='tetra.css' rel='stylesheet' type='text/css'>
-  <!-- <script src="p5.js"></script> -->
-</head>
-<body class='body'>
-
-
-  <div id='container'>
-    <canvas id='gamespace'></canvas>
-    <button id='new'>New Game</button>
-    <button id='quit'>Quit</button>
-    <button id='start'>Start Game</button>
-    <div id='showscore'>
-      <label class='score'>Score:</label>
+  <head>
+    <title>Tetro</title>
+    <link href='tetra.css' rel='stylesheet' type='text/css'>
+  </head>
+  <!--Main Gamespace-->
+  <body class='body'>
+    <div id='container'>
+      <canvas id='gamespace'></canvas>
+      <button id='new'>New Game</button>
+      <button id='quit'>Quit</button>
+      <button id='start'>Start Game</button>
+      <div id='obj1'></div>
+      <!--Game Score Displays-->
+      <div id='showscore'>
+        <label class='score'>Score:</label>
+      </div>
+      <div id='highscore'>
+        <label class='score'>High Score:</label>
+      </div>
     </div>
-
-    <div id='highscore'>
-      <label class='score'>High Score:</label>
+    <!--Game Control Display-->
+    <div id='wrapper'>
+      <img src='GameControl.png' class='controls'></img>
     </div>
-  </div>
-
-
-  <div id='append'>
-    <div id='div1'></div>
-  </div>
-
-  <div id='wrapper'>
-    <img src='GameControl.png' class='controls'></img>
-  </div>
-  <!-- <script type='text/javascript' src='p5.dom.js'></script>
-  <script src='jquery-3.3.1.js'></script>
-  <script src='tetra.js'></script>
-  <script src='tetraaa.js'></script> -->
-</body>
+    <script src='jquery-3.3.1.js'></script>
+    <script src='tetra.js'></script>
+  </body>
 </html>
