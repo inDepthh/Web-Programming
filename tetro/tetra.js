@@ -6,46 +6,41 @@ var quitGame= $("#quit");
 $(function() {
   StartGame();
   NewGame();
+  Quit()
 });
 
+//New Game
 function NewGame() {
   newGame.on('click', function() {
     window.location.reload();
   });
-
 }
 
-function GetPos() {
-  var posObj1 = obj1.position();
-  var posQuit = quitGame.position();
-  var posGame = newGame.position();
-  console.log(posObj1);
-}
-
-function StartGame() {
-  startGame.on('click', function() {
-    translate()
-    console.log("Starting Game")
-    $(this).css("opacity", ".01");
+function Quit() {
+  quitGame.on('click', function() {
+    window.location.reload();
   });
 }
 
+// function GetPos() {
+//   var posObj1 = obj1.position();
+//   var posQuit = quitGame.position();
+//   var posGame = newGame.position();
+//   console.log(posObj1);
+// }
+
+//make things work
+function StartGame() {
+  startGame.on('click', function() {
+    translate();
+    console.log("Starting Game");
+    $(this).css("opacity", ".01");
+    obj1.css('display', 'block');
+  });
+}
+
+//make piece move
 function translate()  {
-  document.addEventListener('keydown', function() {
-    if (event.code == 'KeyS')
-    {
-      console.log("Works")
-      var posObj1 = obj1.position();
-      if (posObj1)
-      {
-          console.log("yes");
-
-      }
-
-    }
-  })
-
-
   setTimeout(function() {
     obj1.css('transform', 'translatey(30px)');
     }, 1000);
@@ -101,49 +96,3 @@ function translate()  {
     obj1.css('transform', 'translatey(540px)');
     }, 18000);
   }
-
-
-
-
-
-
-
-/* obj1.css('transform' = 'translatey(30px)');
-
-obj1.css('transform' = 'translatey(60px)');
-
-obj1.css('transform' - 'translatey(90px)');
-
-
-obj1.css('transform', 'translatey(120px)');
-
-obj1.css('transform', 'translatey(150px)');
-
-obj1.css('transform', 'translatey(180px)');
-
-
-obj1.css('transform', 'translatey(210px)');
-
-obj1.css('transform', 'translatey(240px)');
-
-obj1.css('transform', 'translatey(270px)');
-
-
-obj1.css('transform', 'translatey(300px)');
-
-
-obj1.css('transform', 'translatey(330px)');
-
-obj1.css('transform', 'translatey(360px)');
-
-obj1.css('transform', 'translatey(390px)');
-
-obj1.css('transform', 'translatey(420px)');
-
-obj1.css('transform', 'translatey(450px)');
-
-obj1.css('transform', 'translatey(480px)');
-
-obj1.css('transform', 'translatey(510px)');
-
-obj1.css('transform', 'translatey(540px)'); */
