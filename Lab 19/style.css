@@ -1,0 +1,350 @@
+.wrapper {
+  top: 200px;
+  left: 50px;
+  margin: auto;
+  max-width: 750px;
+  position: relative;
+  color: green;
+  font-size: 40px;
+}
+
+.comment {
+  position: relative;
+  display: flex;
+  margin: auto;
+  top: 80px;
+  font-size: 25px;
+  color: black;
+  width: 1000px;
+  /* left: 90px; */
+}
+
+.comment2 {
+  position: relative;
+  margin: auto;
+  top: 200px;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  width: 1000px;
+  /* left: 90px; */
+}
+
+.pic {
+  position: relative;
+  display: flex;
+  margin: auto;
+  width: 50%;
+  height: 50%
+}
+
+.dog_pic {
+  position: relative;
+  display: flex;
+  margin: auto;
+  width: 30%;
+  height: 30%
+}
+
+.none_pic {
+  position: relative;
+  margin: auto;
+  display: flex;
+  width: 40%;
+  height: 40%
+}
+
+.pc_pic {
+  position: relative;
+  margin: auto;
+  display: flex;
+  width: 30%;
+  height: 30%
+}
+
+
+
+#newlink_android {
+  position: relative;
+  color: red;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: bold;
+  border: 10px solid red;
+  border-width: medium;
+  width: 550px;
+  left: 200px;
+}
+
+#newlink_iphone {
+  position: relative;
+  color: green;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: bold;
+  border: 10px solid green;
+  border-width: medium;
+  width: 320px;
+  left: 785px;
+}
+
+#newlink_don {
+  position: relative;
+  color: red;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: bold;
+  border: 10px solid red;
+  border-width: medium;
+  width: 320px;
+  left: 600px;
+}
+
+#newlink_bern {
+  position: relative;
+  color: red;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: bold;
+  border: 10px solid red;
+  border-width: medium;
+  width: 320px;
+  left: 250px;
+}
+
+#newlink_hillary {
+  position: relative;
+  color: red;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: bold;
+  border: 10px solid red;
+  border-width: medium;
+  width: 320px;
+  left: 645px;
+}
+
+#newlink_none {
+  position: relative;
+  color: green;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: bold;
+  border: 10px solid green;
+  border-width: medium;
+  width: 320px;
+  left:550px;
+}
+
+#newlink_pc {
+  position: relative;
+  color: red;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: bold;
+  border: 10px solid red;
+  border-width: medium;
+  width: 320px;
+  left:550px;
+}
+
+#newlink_console {
+  position: relative;
+  color: green;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: bold;
+  border: 10px solid green;
+  border-width: medium;
+  width: 320px;
+  left: 400px;
+}
+
+#newlink_rap {
+  position: relative;
+  color: green;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: bold;
+  border: 10px solid green;
+  border-width: medium;
+  width: 320px;
+  left: 640px;
+}
+
+#newlink_else {
+  position: relative;
+  color: red;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: bold;
+  border: 10px solid red;
+  border-width: medium;
+  width: 320px;
+  left: 700px;
+  top: 600px;
+}
+
+#newlink_dog {
+  position: relative;
+  color: green;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: bold;
+  border: 10px solid green;
+  border-width: medium;
+  width: 320px;
+  left: 400px;
+}
+
+#newlink_cat {
+  position: relative;
+  color: red;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: bold;
+  border: 10px solid red;
+  border-width: medium;
+  width: 320px;
+  left: 450px;
+}
+
+#newlink_soft {
+  position: relative;
+  color: green;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: bold;
+  border: 10px solid green;
+  border-width: medium;
+  width: 320px;
+  left: 200px;
+}
+
+#newlink_net {
+  position: relative;
+  color: red;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: bold;
+  border: 10px solid red;
+  border-width: medium;
+  width: 320px;
+  left: 675px;
+}
+
+.wrapper_path2 {
+  top: 200px;
+  left: 50px;
+  margin: auto;
+  max-width: 900px;
+  position: relative;
+  color: green;
+  font-size: 40px;
+}
+
+#btn_android {
+  position: relative;
+  float: right;
+  right: 150px;
+  font-size: 50px;
+  background-color: lightblue;
+}
+
+#btn_iphone {
+  position: relative;
+  float: left;
+  font-size: 50px;
+  left: 100px;
+  background-color: lightblue;
+}
+
+#btn_don {
+  position: relative;
+  float: right;
+  right: 260px;
+  font-size: 40px;
+  margin: 10px;
+  background-color: lightblue;
+}
+
+#btn_hil {
+  position: relative;
+  float: left;
+  font-size: 40px;
+  left: 23px;
+  margin: 10px;
+  background-color: lightblue;
+}
+
+#btn_bern {
+  position: relative;
+  float: left;
+  font-size: 40px;
+  margin: 10px;
+  background-color: lightblue;
+}
+
+#btn_none {
+  position:relative;
+  float: left;
+  top: 73px;
+  font-size: 40px;
+  left: 50px;
+  margin: 10px;
+  background-color: lightblue;
+}
+
+#btn_else {
+  left: 130px;
+  position: relative;
+  float: left;
+  font-size: 35px;
+  margin: 10px;
+  background-color: lightblue;
+}
+
+#btn_rap {
+  left: 90px;
+  position: relative;
+  float: left;
+  font-size: 35px;
+  margin: 10px;
+  background-color: lightblue;
+}
+
+#btn_dog {
+  left: 200px;
+  position: relative;
+  float: left;
+  font-size: 35px;
+  margin: 10px;
+  background-color: lightblue;
+}
+
+#btn_cat {
+  left: 290px;
+  position: relative;
+  float: left;
+  font-size: 35px;
+  margin: 10px;
+  background-color: lightblue;
+}
+
+#btn_soft {
+  left: 55px;
+  position: relative;
+  float: left;
+  font-size: 35px;
+  margin: 10px;
+  background-color: lightblue;
+}
+
+#btn_net {
+  left: 50px;
+  position: relative;
+  float: left;
+  font-size: 35px;
+  margin: 10px;
+  background-color: lightblue;
+}
